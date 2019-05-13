@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder: Survey</title>
+  
+<!-- JQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<!-- Bootstrap CDN &  Custom Stylesheet -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/survey_style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<!-- Header -->
+    <h1>Make New Friends By Taking The Survey!</h1>
+
+    <p class="sectionHead">About You</p>
+    <p class="sectionSub">Name</p>
+    <input type="text" id="name" class="form-control" required>
+
+    <p class="sectionSubHead">Link Profile Photo</p>
+    <input type="text" id="photo" class="form-control" required>
+    
+
+<!-- Survey Question Container and Questions -->
+    <div class="surveyBody">
+
+        <p class="sectionHead">Question #1</p>
+        <p class="sectionSub">You frequently sing about evil.</p>
+        <select data-placeholder="" class="btn-warning select" id="ques1">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+
+        <hr>
+
+        <p class="sectionHead">Question #2</p>
+        <p class="sectionSub">You are cast almost exclusively in B-Movies.</p>
+        <select data-placeholder="" class="btn-warning select" id="ques2">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+            
+        <hr>
+
+        <p class="sectionHead">Question #3</p>
+        <p class="sectionSub">You are a regular on The Howard Stern Show.</p>
+        <select data-placeholder="" class="btn-warning select" id="ques3">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+            
+        <hr>
+
+        <p class="sectionHead">Question #4</p>
+        <p class="sectionSub">You are a voracious comic book collector.</p>
+        <select data-placeholder="" class="btn-warning select" id="ques4">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+            
+        <hr>
+
+        <p class="sectionHead">Question #5</p>
+        <p class="sectionSub">You know the Olson twins.</p>
+        <select data-placeholder="" class="btn-warning select" id="ques5">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+            
+        <hr>
+
+        <p class="sectionHead">Question #6</p>
+        <p class="sectionSub">You use to work with Rick Rubin aaallllll the time.</p>
+        <select data-placeholder="" class="btn-warning select" id="ques6">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+            
+        <hr>
+
+        <p class="sectionHead">Question #7</p>
+        <p class="sectionSub">You feel more at home on the West Coast.</p>
+        <select data-placeholder="" class="btn-warning select" id="ques7">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+            
+        <hr>
+
+        <p class="sectionHead">Question #8</p>
+        <p class="sectionSub">You save the Universe on a weekly basis.</p>
+        <select data-placeholder="" class="btn-warning select" id="ques8">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+            
+        <hr>
+
+        <p class="sectionHead">Question #9</p>
+        <p class="sectionSub">You consider yourself someone people love to hate.</p>
+        <select data-placeholder="" class="btn-warning select" id="ques9">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+            
+        <hr>
+
+        <p class="sectionHead">Question #10</p>
+        <p class="sectionSub">You love to go to the Zoo.</p>
+        <select data-placeholder="" class="btn-warning select" id="ques10">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+    </div>
+</div>
+<footer class="footer">Friend Finder © 2019
+<a  class="memButton" href="http://localhost:8080/api/friends">Seach Members</a>
+</footer>
+   
+
+
+<!-- Modal -->
+<div id="results-modal" class="modal fade" role="dialog">
+     <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <p class="modal-title sectionHead">Your New Friend</p>
+            </div>
+            <div class="modal-body">
+                <h2 id="match-name"></h2>
+                <img id="match-img" src="" alt="">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+           </div>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    // Capture the form inputs
+    $("#submit").on("click", function(event) {
+      event.preventDefault();
+
+      // Form validation
+      function validateForm() {
+        var isValid = true;
+        $(".form-control").each(function() {
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+
+        $(".select").each(function() {
+
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+        return isValid;
+      }
+
+      // If all required fields are filled
+      if (validateForm()) {
+        // Create an object for the user's data
+        var userData = {
+          name: $("#name").val(),
+          photo: $("#photo").val(),
+          scores: [
+            $("#ques1").val(),
+            $("#ques2").val(),
+            $("#ques3").val(),
+            $("#ques4").val(),
+            $("#ques5").val(),
+            $("#ques6").val(),
+            $("#ques7").val(),
+            $("#ques8").val(),
+            $("#ques9").val(),
+            $("#ques10").val()
+          ]
+        };
+
+        // AJAX post the data to the friends API.
+        $.post("/api/friends", userData, function(data) {
+
+          console.log(userData);
+
+          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+          $("#match-name").text(data.name);
+          $("#match-img").attr("src", data.photo);
+
+          // Show the modal with the best match
+          $("#results-modal").modal("toggle");
+
+        });
+
+      } else {
+        alert("Complete all fields before submitting!");
+      }
+    });
+
+  </script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

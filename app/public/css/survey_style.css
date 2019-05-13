@@ -1,0 +1,58 @@
+/* Survey Page CSS */
+
+body {
+    background-color: rgb(51, 49, 49);
+}
+
+div.container {
+    margin-top: 40px;
+    padding: 5%;
+    background-color: rgb(243, 243, 213);
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(66, 66, 180);
+    margin-bottom: 30px;
+}
+
+p.sectionHead {
+    font-size: 20px;
+    color: rgb(67, 67, 70);
+    font-weight: bold;
+}
+
+p.sectionSubHead {
+    margin-top: 20px; 
+}
+
+div.surveyBody {
+    margin-top: 60px;
+}
+
+button#submit { 
+    margin-top: 80px;
+}
+
+.footer {
+    height: 100px;
+    text-align: center;
+    color: rgb(190, 185, 185);
+    font-size: 20px;
+    padding-top: 40px;
+    font-weight: 600;
+}
+
+select.select {
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+a.memButton {
+    margin-left: 40px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
