@@ -8,7 +8,7 @@
 * *run* **npm install**
 * *run* **node server.js**
 
-App Hosted on Heroku Here:
+App Hosted on Heroku Here:https://bad-friend-finder.herokuapp.com/
 
 **Directions:**
 * Navigate to Survey Page
