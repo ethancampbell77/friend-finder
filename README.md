@@ -4,9 +4,9 @@
 **Utilizes Node and Express to create a friend/dating style App**
 
 **To run locally**
-* *Clone **Repository
-* *run **npm install
-* *run **node server.js
+1 *Clone Repository
+2 *run npm install
+3 *run node server.js
 
 App Hosted on Heroku Here:
 
