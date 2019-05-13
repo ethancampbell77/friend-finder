@@ -1,3 +1,5 @@
+// Friends Data 
+
 var friends = [
     {
         name: "Bob",
