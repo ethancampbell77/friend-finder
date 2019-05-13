@@ -7,6 +7,7 @@ body {
 div.container {
     margin-top: 40px;
     padding: 5%;
+    padding-bottom: 8%;
     background-color: rgb(243, 243, 213);
 }
 
@@ -56,3 +57,25 @@ a.memButton {
     font-weight: 600;
 }
 
+button.clearButton {
+    margin-top: 30px;
+    float: right;
+}
+
+/* Modal Styling */
+
+div.modal-dialog {
+    width: 320px;
+}
+
+img#match-img {
+    max-width: 300px;
+    width: 290px;
+    padding: 5px;
+}
+
+p.modal-title {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(15, 46, 148);
+}

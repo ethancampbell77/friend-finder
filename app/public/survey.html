@@ -163,22 +163,26 @@
         <!-- Submit Button -->
         <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
     </div>
+
+    <a href="survey"><button class="btn btn-lg btn-dark clearButton">Clear Form</button></a>
+
 </div>
+
+<!-- Footer with link for Friend JSONs -->
 <footer class="footer">Friend Finder © 2019
 <a  class="memButton" href="http://localhost:8080/api/friends">Seach Members</a>
 </footer>
    
 
 
-<!-- Modal -->
+<!-- Modal for Match Results-->
 <div id="results-modal" class="modal fade" role="dialog">
      <div class="modal-dialog">
 
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
-                <button class="close" data-dismiss="modal">&times;</button>
-                <p class="modal-title sectionHead">Your New Friend</p>
+              <p class="modal-title">Your New Friend</p>
             </div>
             <div class="modal-body">
                 <h2 id="match-name"></h2>

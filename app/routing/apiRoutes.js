@@ -18,8 +18,6 @@ app.post("/api/friends", function (req, res) {
         friendDifference: Infinity
     };
 
-    console.log(bestMatch);
-
     var userData = req.body;
     var userScores = userData.scores;
     var totalDifference;
